@@ -33,7 +33,7 @@
                       </a>
                       <a class="mr-3" href="https://wa.me/11969100798"><v-icon
                        slot="icon"
-                       color="green"
+                       color="blue"
                        size="25">
                         mdi-whatsapp
                       </v-icon></a>
