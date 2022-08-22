@@ -16,7 +16,7 @@
                        size="36">
                         mdi-account
                       </v-icon>
-                        Sobre mim!
+                        Sobre mim 156651561561561
                   </v-banner>
                </div>
             <v-list-item-title class="text-h5 mb-1">
