@@ -84,6 +84,11 @@ export default {
           title: 'Experiencias',
           to: '/experiencias'
         },
+         {
+          icon: 'mdi-heart',
+          title: 'Agradecimentos',
+          to: '/agradecimentos'
+        },
       ],
       miniVariant: false,
       right: true,

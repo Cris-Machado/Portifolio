@@ -92,7 +92,7 @@
         </v-list-item-content>
       </v-list-item>
       <v-card-text class="text--primary">
-      <p>Apesar de passar a maior parte do tempo livre durante a semana estudando ou fazendo testes laboratoriais, ler livros que estimulam a criatividade e jogar jogos com boas histórias constumam ser coisas que realmente gosto de fazer para relaxar! dentre diversos livros considero os da J.K Rowling os meus prediletos, mesmo tendo tendência a gostar muito de mitologias e suas curiosidades. Indico MITOLOGIA NÓRDICA - NAIL GAIMAN e é claro toda a série de livros sobre Harry Potter!</p>
+      <p>Apesar de passar a maior parte do tempo livre durante a semana estudando ou fazendo testes laboratoriais, ler livros que estimulam a criatividade, praticar aulas de violão e jogar jogos com boas histórias constumam ser coisas que gosto de fazer para relaxar! dentre diversos livros considero os da J.K Rowling os meus prediletos, mesmo tendo tendência a gostar muito de mitologias e suas curiosidades. Indico MITOLOGIA NÓRDICA - NAIL GAIMAN e é claro toda a série de livros sobre Harry Potter!</p>
                       </v-card-text>
       </v-card-actions>
       </v-card>
