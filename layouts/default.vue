@@ -1,48 +1,66 @@
 <template>
   <v-app dark>
-    
-    </v-navigation-drawer>
-    <v-app-bar
+    <v-navigation-drawer
+      v-model="drawer"
+      :mini-variant="miniVariant"
+      :clipped="clipped"
       fixed
       app
     >
-    <p>
-    <v-icon
-                       slot="icon"
-                       color="red"
-                       size="26">
-                        mdi-emoticon-excited-outline
-                      </v-icon>
-    Olá, eu sou Cris!</p>
+      <v-list>
+        <v-list-item
+          v-for="(item, i) in items"
+          :key="i"
+          :to="item.to"
+          router
+          exact
+        >
+          <v-list-item-action>
+            <v-icon>{{ item.icon }}</v-icon>
+          </v-list-item-action>
+          <v-list-item-content>
+            <v-list-item-title v-text="item.title" />
+          </v-list-item-content>
+        </v-list-item>
+      </v-list>
+    </v-navigation-drawer>
+    <v-app-bar
+      :clipped-left="clipped"
+      fixed
+      app
+    >
+      <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
+      <v-toolbar-title v-text="title" />
+      <v-spacer />
+      
     </v-app-bar>
     <v-main>
       <v-container>
         <Nuxt />
       </v-container>
     </v-main>
+    <v-navigation-drawer
+      v-model="rightDrawer"
+      :right="right"
+      temporary
+      fixed
+    >
+      <v-list>
+        <v-list-item @click.native="right = !right">
+          <v-list-item-action>
+            <v-icon light>
+              mdi-repeat
+            </v-icon>
+          </v-list-item-action>
+          <v-list-item-title>Switch drawer (click me)</v-list-item-title>
+        </v-list-item>
+      </v-list>
+    </v-navigation-drawer>
     <v-footer
       :absolute="!fixed"
       app
     >
-     <a class="mr-3" href="https://www.linkedin.com/in/cristiano-henrique-machado-704957156/"><v-icon
-                       slot="icon"
-                       color="primary"
-                       size="25">
-                        mdi-linkedin
-                      </v-icon>
-                      </a>
-                      <a class="mr-3" href="https://wa.me/11969100798"><v-icon
-                       slot="icon"
-                       color="blue"
-                       size="25">
-                        mdi-whatsapp
-                      </v-icon></a>
-                      <a class="mr-3" href="https://www.instagram.com/_crisdeveloper/"><v-icon
-                       slot="icon"
-                       color="purple"
-                       size="25">
-                        mdi-instagram
-                      </v-icon></a>
+      <span>&copy; {{ new Date().getFullYear() }}</span>
     </v-footer>
   </v-app>
 </template>
@@ -52,10 +70,25 @@ export default {
   name: 'DefaultLayout',
   data () {
     return {
+      clipped: false,
+      drawer: false,
+      fixed: false,
       items: [
+        {
+          icon: 'mdi-apps',
+          title: 'Página inicial',
+          to: '/'
+        },
+        {
+          icon: 'mdi-checkbox-marked-circle',
+          title: 'Experiencias',
+          to: '/experiencias'
+        },
       ],
       miniVariant: false,
-      title: 'Vuetify.js'
+      right: true,
+      rightDrawer: false,
+      title: 'Cristiano Henrique Machado'
     }
   }
 }

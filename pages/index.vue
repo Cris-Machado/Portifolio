@@ -22,7 +22,7 @@
             <v-list-item-title class="text-h5 mb-1">
           </v-list-item-title>
            <v-card-text class="text--primary">
-              <p>- Meu nome é asdasdaCristiano, mais conhecido como "Cris"! apesar de ter origens mineira moro em Jundiai (São Paulo) desde sempre, aos meus 18 anos resolvi sair da casa dos meus pais para buscar além da idependencia a reponsabilidade de como sería estar a mercê dos próprios erros e acertos!</p>
+              <p>- Meu nome é Cristiano, mais conhecido como "Cris"! apesar de ter origens mineira moro em Jundiai (São Paulo) desde sempre, aos meus 18 anos resolvi sair da casa dos meus pais para buscar além da idependencia a reponsabilidade de como sería estar a mercê dos próprios erros e acertos!</p>
               <p>- Sempre me fascinou soluções capazes de coisas complexas de forma autônoma. Mas confesso que quando tive o primeiro contato com uma linha de código fiquei um pouco assustado(2016), mas ao passar das aulas aquilo parecia se tornar cada vez mais fácil e hoje aos {{idade}} anos minha maior paixão é desenvolver boas soluções!</p>
             </v-card-text>
         </v-list-item-content>

@@ -25,7 +25,7 @@ export default {
   data () {
     return {
 
-      pageNotFound: '404 Not achado',
+      pageNotFound: '404 Not found',
       otherError: 'An error occurred'
     }
   },
