@@ -4,23 +4,81 @@
         align-top
         dense
       >
-        <v-timeline-item
-          color="yellow"
+      <v-timeline-item
+          color="#FFDB58"
           small
         >
           <v-row class="pt-1 experience">
             <v-col cols="7">
-              <strong>GZ Sistemas, nov de 2017 - nov de 2018</strong>
+              <strong>Performa_IT, jun de 2021 - momento</strong>
               <div class="text-caption">
-                Estágio 
+                Desenvolvedor Full-Stack Pleno
+              </div>
+            </v-col>
+            <v-col>
+              <div class="text-caption">
+                <li>Desenvolvimento de soluções do zero para diversos clientes, com maior foco em Back-End aplicando princípios fortes do CleanCode/S.O.L.I.D.</li>
+                <li>Competências: Simple Access Object Protocol · Application Progra · Domain-Driven Design (DDD) · Test Driven Development · Skrum · Clean Code</li>
+
+              </div>
+              </v-col>
+          </v-row>
+        </v-timeline-item>
+         <v-timeline-item
+          color="red"
+          small
+        >
+          <v-row class="pt-1 experience">
+            <v-col cols="7">
+              <strong>Edenred Brasil, mar de 2021 - jun de 2021</strong>
+              <div class="text-caption">
+                Desenvolvedor Backend .Net Pleno
+              </div>
+            </v-col>
+            <v-col>
+              <div class="text-caption">
+                <li>*Desenvolvimento de aplicações de automação para sustentação e implantação para rotina de manipulação de cartões e pagamentos</li>
+                <li>Front-end: MVC, Angular | Back-End: .Net Core 5(DDD)/SQLServer</li>
+
+              </div>
+              </v-col>
+          </v-row>
+        </v-timeline-item>
+        <v-timeline-item
+          color="#df8028"
+          small
+        >
+          <v-row class="pt-1 experience">
+            <v-col cols="7">
+              <strong>Solistica, set de 2020 - mar de 2021</strong>
+              <div class="text-caption">
+                Desenvolvedor Full-Stack Júnior
+              </div>
+            </v-col>
+            <v-col>
+              <div class="text-caption">
+                <li>Analise e desenvolvimento de Aplicações para Logística Web</li>
+                <li>Front-end: MVC/JQuery/Bootstrap | Back-end: .Net Core(DDD)/SQLServer</li>
+
+              </div>
+              </v-col>
+          </v-row>
+        </v-timeline-item>
+        <v-timeline-item
+          color="#daa520"
+          small
+        >
+          <v-row class="pt-1 experience">
+            <v-col cols="7">
+              <strong>Goldsoft  Informatica, mai de 2019 - set de 2020</strong>
+              <div class="text-caption">
+                Desenvolvedor Full-Stack Júnior
               </div>
             </v-col>
             <v-col>
               <strong>Experiencias:</strong>
-              <div class="text-caption">
-                <li>A princípio fui contratado para agregar a equipe de suporte ao cliente prestando ajudas técnicas no dia-a-dias, porém ao passar cerca de 2 meses houve uma seleção de um novo desenvolvedor e tive a honra de ser selecionado</li>
-                <li>Desenvolvimento de novas rotinas e JAVA, construção de relatórios com iReport faziam parte da minha rotina assim como prestar rápidos ajustes a pedido da equipe de análise.</li>
-              </div>
+              <li>Desenvolvimento de sistemas (Delphi 2010, 2007/Oracle) e .NET Framework</li>
+              <li>Desenvolvimento de Aplicações para COMEX com Front-end: VueJS | Back-end: .Net Core (Padrão DDD) / SQLServer</li>
             </v-col>
           </v-row>
         </v-timeline-item>
@@ -45,82 +103,23 @@
         </v-timeline-item>
 
         <v-timeline-item
-          color="#daa520"
+          color="yellow"
           small
         >
           <v-row class="pt-1 experience">
             <v-col cols="7">
-              <strong>Goldsoft  Informatica, mai de 2019 - set de 2020</strong>
+              <strong>GZ Sistemas, nov de 2017 - nov de 2018</strong>
               <div class="text-caption">
-                Desenvolvedor Full-Stack Júnior
+                Estágio 
               </div>
             </v-col>
             <v-col>
               <strong>Experiencias:</strong>
-              <li>Desenvolvimento de sistemas (Delphi 2010, 2007/Oracle) e .NET Framework</li>
-              <li>Desenvolvimento de Aplicações para COMEX com Front-end: VueJS | Back-end: .Net Core (Padrão DDD) / SQLServer</li>
-            </v-col>
-          </v-row>
-        </v-timeline-item>
-
-        <v-timeline-item
-          color="#df8028"
-          small
-        >
-          <v-row class="pt-1 experience">
-            <v-col cols="7">
-              <strong>Solistica, set de 2020 - mar de 2021</strong>
               <div class="text-caption">
-                Desenvolvedor Full-Stack Júnior
+                <li>A princípio fui contratado para agregar a equipe de suporte ao cliente prestando ajudas técnicas no dia-a-dias, porém ao passar cerca de 2 meses houve uma seleção de um novo desenvolvedor e tive a honra de ser selecionado</li>
+                <li>Desenvolvimento de novas rotinas e JAVA, construção de relatórios com iReport faziam parte da minha rotina assim como prestar rápidos ajustes a pedido da equipe de análise.</li>
               </div>
             </v-col>
-            <v-col>
-              <div class="text-caption">
-                <li>Analise e desenvolvimento de Aplicações para Logística Web</li>
-                <li>Front-end: MVC/JQuery/Bootstrap | Back-end: .Net Core(DDD)/SQLServer</li>
-
-              </div>
-              </v-col>
-          </v-row>
-        </v-timeline-item>
-        <v-timeline-item
-          color="red"
-          small
-        >
-          <v-row class="pt-1 experience">
-            <v-col cols="7">
-              <strong>Edenred Brasil, mar de 2021 - jun de 2021</strong>
-              <div class="text-caption">
-                Desenvolvedor Backend .Net Pleno
-              </div>
-            </v-col>
-            <v-col>
-              <div class="text-caption">
-                <li>*Desenvolvimento de aplicações de automação para sustentação e implantação para rotina de manipulação de cartões e pagamentos</li>
-                <li>Front-end: MVC, Angular | Back-End: .Net Core 5(DDD)/SQLServer</li>
-
-              </div>
-              </v-col>
-          </v-row>
-        </v-timeline-item>
-        <v-timeline-item
-          color="#FFDB58"
-          small
-        >
-          <v-row class="pt-1 experience">
-            <v-col cols="7">
-              <strong>Performa_IT, jun de 2021 - momento</strong>
-              <div class="text-caption">
-                Desenvolvedor Full-Stack Pleno
-              </div>
-            </v-col>
-            <v-col>
-              <div class="text-caption">
-                <li>Desenvolvimento de soluções do zero para diversos clientes, com maior foco em Back-End aplicando princípios fortes do CleanCode/S.O.L.I.D.</li>
-                <li>Competências: Simple Access Object Protocol · Application Progra · Domain-Driven Design (DDD) · Test Driven Development · Skrum · Clean Code</li>
-
-              </div>
-              </v-col>
           </v-row>
         </v-timeline-item>
       </v-timeline>
